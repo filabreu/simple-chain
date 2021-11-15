@@ -75,7 +75,7 @@ class Blockchain{
         }
     }
 
-   // Validate blockchain
+    // Validate blockchain
     validateChain(){
       let errorLog = [];
       for (var i = 0; i < this.chain.length-1; i++) {

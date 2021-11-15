@@ -3,7 +3,7 @@
 |  =============================================================*/
 
 const level = require('level');
-const chainDB = './chaindata';
+const chainDB = './simpleChain';
 const db = level(chainDB);
 
 // Add data to levelDB with key/value pair
